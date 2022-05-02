@@ -1,0 +1,40 @@
+0) Alice's message:
+	message: Hello
+	message digest: 9f6290f4436e5a2351f12e03b6433c3c
+try: �p�$0��"�N!ؕ�xT�L�A�J�'H�7
+1) Alice aquired new keypair:
+	publicKey: 2,127,118,69,30,17,14,162,207,215,147,66,70,2,251,203,101,186,236,158,57,25,196,10,240,122,129,41,162,26,120,106,156
+	privateKey: eea570e5b1243002e5d322f74e2119d8951bd97854e54cdc41f84af72748e637
+2) Alice signed her message digest with her privateKey to get its signature:
+   Signature: Signature {
+  r: BN {
+    negative: 0,
+    words: [
+      56333862, 38371651,
+      60363410, 25388976,
+      35289462, 64627214,
+      30467699, 29599452,
+      21948833,  2230670
+    ],
+    length: 10,
+    red: null
+  },
+  s: BN {
+    negative: 0,
+    words: [
+       1508264, 44278941, 31889607, 30622041,
+      16694813,  6322780, 22828606, 33962103,
+      32248853,  1988021,        0,        0,
+             0,        0,        0,        0,
+             0,        0,        0,        0,
+             0,        0,        0,        0,
+             0,        0,        0,        0,
+             0,        0
+    ],
+    length: 10,
+    red: null
+  },
+  recoveryParam: 1
+}
+3) Bob verified by 3 elements ("message digest", "signature", and Alice's "publicKey"):
+   verified: true
